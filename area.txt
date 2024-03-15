@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class area
+{
+public static void main(String args[])
+{
+Scanner input=new Scanner(System.in);
+System.out.println("enter the length and breadth");
+int l=input.nextInt();
+int b=input.nextInt();
+int a=l*b;
+System.out.println("area of rectangle="+a);
+}}
+~
